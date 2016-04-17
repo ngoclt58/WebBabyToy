@@ -25,6 +25,7 @@
 		</div>
 
 		<div class="form-row">
+			<div style="color:red;font-weight:blod"><?php echo form_error('login');?></div>
 			<label class="form-label">&nbsp;</label>
 			<div class="form-item">
 				<input type="submit" name="submit" value="Đăng nhập" class="button">

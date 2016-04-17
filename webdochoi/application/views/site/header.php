@@ -63,8 +63,8 @@ $(function() {
 		<li class=""><a href="tin-tuc.html">Tin tức</a></li>
 		<li class=""><a href="video.html">Video</a></li>
 		<li class=""><a href="lien-he.html">Liên hệ</a></li>
-		<li class=""><a href="<?php echo client_url('/user/register')?>">Đăng ký</a></li>
-		<li class=""><a href="<?php echo client_url('/user/login')?>">Đăng nhập</a></li>
+		<li class=""><a href="<?php echo client_url('user/register')?>">Đăng ký</a></li>
+		<li class=""><a href="<?php echo client_url('user/login')?>">Đăng nhập</a></li>
 	</ul>
 </div>
 <!-- End menu -->
