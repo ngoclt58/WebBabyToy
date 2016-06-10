@@ -165,146 +165,7 @@
 				</tfoot>
 
 				<tbody class="list_item">
-					<tr>
-						<td><div class="checker" id="uniform-undefined">
-								<span><input type="checkbox" value="21" name="id[]"
-									style="opacity: 0;"></span>
-							</div></td>
-
-						<td class="textC">21</td>
-
-						<td>Hoàng văn Tuyền</td>
-
-						<td class="textR red">10,000,000</td>
-
-						<td>dathang</td>
-
-
-						<td class="status textC"><span class="pending"> Chờ xử lý </span>
-						</td>
-
-						<td class="textC">16-08-2014</td>
-
-						<td class="textC"><a class="lightbox cboxElement"
-							href="admin/tran/view/21.html"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/view.png">
-						</a> <a class="tipS verify_action" href="admin/tran/del/21.html"
-							original-title="Xóa"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/delete.png">
-						</a></td>
-					</tr>
-					<tr>
-						<td><div class="checker" id="uniform-undefined">
-								<span><input type="checkbox" value="20" name="id[]"
-									style="opacity: 0;"></span>
-							</div></td>
-
-						<td class="textC">20</td>
-
-						<td>Hoàng văn Tuyền</td>
-
-						<td class="textR red">5,000,000</td>
-
-						<td>baokim</td>
-
-
-						<td class="status textC"><span class="pending"> Chờ xử lý </span>
-						</td>
-
-						<td class="textC">15-08-2014</td>
-
-						<td class="textC"><a class="lightbox cboxElement"
-							href="admin/tran/view/20.html"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/view.png">
-						</a> <a class="tipS verify_action" href="admin/tran/del/20.html"
-							original-title="Xóa"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/delete.png">
-						</a></td>
-					</tr>
-					<tr>
-						<td><div class="checker" id="uniform-undefined">
-								<span><input type="checkbox" value="19" name="id[]"
-									style="opacity: 0;"></span>
-							</div></td>
-
-						<td class="textC">19</td>
-
-						<td>Hoàng văn Tuyền</td>
-
-						<td class="textR red">5,000,000</td>
-
-						<td>baokim</td>
-
-
-						<td class="status textC"><span class="pending"> Chờ xử lý </span>
-						</td>
-
-						<td class="textC">15-08-2014</td>
-
-						<td class="textC"><a class="lightbox cboxElement"
-							href="admin/tran/view/19.html"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/view.png">
-						</a> <a class="tipS verify_action" href="admin/tran/del/19.html"
-							original-title="Xóa"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/delete.png">
-						</a></td>
-					</tr>
-					<tr>
-						<td><div class="checker" id="uniform-undefined">
-								<span><input type="checkbox" value="18" name="id[]"
-									style="opacity: 0;"></span>
-							</div></td>
-
-						<td class="textC">18</td>
-
-						<td>Hoàng văn Tuyền</td>
-
-						<td class="textR red">5,000,000</td>
-
-						<td>baokim</td>
-
-
-						<td class="status textC"><span class="pending"> Chờ xử lý </span>
-						</td>
-
-						<td class="textC">15-08-2014</td>
-
-						<td class="textC"><a class="lightbox cboxElement"
-							href="admin/tran/view/18.html"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/view.png">
-						</a> <a class="tipS verify_action" href="admin/tran/del/18.html"
-							original-title="Xóa"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/delete.png">
-						</a></td>
-					</tr>
-					<tr>
-						<td><div class="checker" id="uniform-undefined">
-								<span><input type="checkbox" value="17" name="id[]"
-									style="opacity: 0;"></span>
-							</div></td>
-
-						<td class="textC">17</td>
-
-						<td>Hoàng văn Tuyền</td>
-
-						<td class="textR red">5,000,000</td>
-
-						<td>baokim</td>
-
-
-						<td class="status textC"><span class="pending"> Chờ xử lý </span>
-						</td>
-
-						<td class="textC">15-08-2014</td>
-
-						<td class="textC"><a class="lightbox cboxElement"
-							href="admin/tran/view/17.html"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/view.png">
-						</a> <a class="tipS verify_action" href="admin/tran/del/17.html"
-							original-title="Xóa"> <img
-								src="<?php echo public_url('admin')?>/images/icons/color/delete.png">
-						</a></td>
-					</tr>
+					
 					<tr>
 						<td><div class="checker" id="uniform-undefined">
 								<span><input type="checkbox" value="16" name="id[]"
@@ -313,17 +174,17 @@
 
 						<td class="textC">16</td>
 
-						<td>Hoàng văn Tuyền</td>
+						<td>Lê Thanh Ngọc</td>
 
 						<td class="textR red">5,000,000</td>
 
-						<td>baokim</td>
+						<td>USD</td>
 
 
 						<td class="status textC"><span class="pending"> Chờ xử lý </span>
 						</td>
 
-						<td class="textC">15-08-2014</td>
+						<td class="textC">15-05-2016</td>
 
 						<td class="textC"><a class="lightbox cboxElement"
 							href="admin/tran/view/16.html"> <img
@@ -341,17 +202,17 @@
 
 						<td class="textC">15</td>
 
-						<td>Hoàng văn Tuyền</td>
+						<td>Đàm Duy Tiến</td>
 
 						<td class="textR red">5,000,000</td>
 
-						<td>baokim</td>
+						<td>VNĐ</td>
 
 
 						<td class="status textC"><span class="pending"> Chờ xử lý </span>
 						</td>
 
-						<td class="textC">15-08-2014</td>
+						<td class="textC">15-05-2016</td>
 
 						<td class="textC"><a class="lightbox cboxElement"
 							href="admin/tran/view/15.html"> <img
@@ -369,9 +230,9 @@
 
 						<td class="textC">14</td>
 
-						<td>Hoàng văn Tuyền</td>
+						<td>Trịnh Vân Trang</td>
 
-						<td class="textR red">10,000,000</td>
+						<td class="textR red">20,000,000</td>
 
 						<td>nganluong</td>
 
@@ -379,7 +240,7 @@
 						<td class="status textC"><span class="completed"> Thành công </span>
 						</td>
 
-						<td class="textC">14-08-2014</td>
+						<td class="textC">16-05-2016</td>
 
 						<td class="textC"><a class="lightbox cboxElement"
 							href="admin/tran/view/14.html"> <img
@@ -397,17 +258,17 @@
 
 						<td class="textC">13</td>
 
-						<td>Hoàng văn Tuyền</td>
+						<td>Lê Thanh Ngọc</td>
 
-						<td class="textR red">20,000,000</td>
+						<td class="textR red">70,000,000</td>
 
-						<td>nganluong</td>
+						<td>$$$</td>
 
 
 						<td class="status textC"><span class="completed"> Thành công </span>
 						</td>
 
-						<td class="textC">13-08-2014</td>
+						<td class="textC">16-05-2016</td>
 
 						<td class="textC"><a class="lightbox cboxElement"
 							href="admin/tran/view/13.html"> <img
@@ -425,17 +286,17 @@
 
 						<td class="textC">12</td>
 
-						<td>Hoàng văn Tuyền</td>
+						<td>Đàm Duy Tiến</td>
 
-						<td class="textR red">10,000,000</td>
+						<td class="textR red">30,000,000</td>
 
-						<td>nganluong</td>
+						<td>USD</td>
 
 
 						<td class="status textC"><span class="completed"> Thành công </span>
 						</td>
 
-						<td class="textC">13-08-2014</td>
+						<td class="textC">17-06-2016</td>
 
 						<td class="textC"><a class="lightbox cboxElement"
 							href="admin/tran/view/12.html"> <img

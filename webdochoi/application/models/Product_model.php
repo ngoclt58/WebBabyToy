@@ -1,5 +1,7 @@
 <?php
-Class Product_model extends MY_Model
+
+class Product_model extends MY_Model
 {
+
     var $table = 'product';
 }

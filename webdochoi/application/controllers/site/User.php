@@ -43,9 +43,9 @@ class User extends MY_controller
         
         // neu ma co du lieu post len
         if ($this->input->post()) {
-            $this->form_validation->set_rules('name', 'name', 'required|min_length[8]');
+            $this->form_validation->set_rules('name', 'name', 'required|min_length[6]');
             $this->form_validation->set_rules('email', 'email', 'required|callback_check_email');
-            $this->form_validation->set_rules('password', 'password', 'required|min_length[8]');
+            $this->form_validation->set_rules('password', 'password', 'required|min_length[6]');
             $this->form_validation->set_rules('re_password', 'password verify', 'required|matches[password]');
             $this->form_validation->set_rules('phone', 'phone', 'required');
             $this->form_validation->set_rules('address', 'address', 'required');
@@ -102,20 +102,26 @@ class User extends MY_controller
      */
     function login()
     {
-        if(isset($this->session->username['email'])){
-            $this->load->library('form_validation');
-            $this->load->helper('form');
-            if ($this->input->post()) {
-                $this->form_validation->set_rules('login', 'login', 'callback_check_login');
-                if ($this->form_validation->run()) {
-                    $this->session->set_userdata('email', $this->input->post('email'));
-                    redirect(base_url());
-                }
+        $this->load->library('form_validation');
+        $this->load->helper('form');
+        if ($this->input->post()) {
+            $this->form_validation->set_rules('login', 'login', 'callback_check_login');
+            if ($this->form_validation->run()) {
+                $this->session->set_userdata('email', $this->input->post('email'));
+                redirect(base_url());
+                echo "success";
             }
-            $data['temp'] = 'site/user/login/index';
-            $this->load->view('site/main_layout', $data);
-        }else{
-            redirect(base_url());
         }
+        $data['temp'] = 'site/user/login/index';
+        $this->load->view('site/main_layout', $data);
+    }
+    /*
+     * Dang xuat
+     */
+    function logout(){
+        if ($this->session->userdata('email')) {
+            $this->session->unset_userdata('email');
+        }
+        redirect(base_url());
     }
 }

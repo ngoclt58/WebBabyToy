@@ -1,26 +1,23 @@
 <?php
-Class Home extends CI_Controller{
-    function __construct()
-    {
-        parent::__construct();
-        $this->load->model('product_model');
-    }
-    
+
+class Home extends MY_controller
+{
+
     function index()
     {
-        $input = array();
-        $input['order'] = array('created', 'DESC');
-        $nums_record = 3;
-        if(isset($_GET['page'])) {
-            $input['limit'] = array($nums_record * $_GET['page'], $nums_record * $_GET['page'] - $nums_record);
-        }
-        else {
-            $input['limit'] = array($nums_record, "0");
-        }
-        $list = $this->product_model->get_list($input);
-        $data['total'] = $this->product_model->get_total();
-        $data['list'] = $this->product_model->get_list($input);
-        $data['temp']='site/home/index';
-        $this->load->view('site/main_layout',$data);
+        //lay danh sach san pham moi
+	    $this->load->model('product_model');
+	    $input = array();
+	    $input['limit'] = array(3, 0);
+	    $product_newest = $this->product_model->get_list($input);
+	    $this->data['product_newest'] = $product_newest;
+	    
+	    $input['order'] = array('count_buy', 'DESC');
+	    $product_buy = $this->product_model->get_list($input);
+		$this->data['product_buy']  = $product_buy;
+		
+		$this->data['temp'] = 'site/home/index';
+		$this->load->view('site/main_layout', $this->data);
+		
     }
 }

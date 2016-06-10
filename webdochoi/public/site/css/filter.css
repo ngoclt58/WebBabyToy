@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+
+.navbar navbar-default{
+	height: 5px;
+	width:150px;
+	padding :2px;
+}
+
+.form-control:hover{
+	border: 1px solid #B6DE5E;
+    box-shadow: 0 0 2px #B6DE5E;  
+}
+
+.form-control:focus{
+	border: 1px solid #B6DE5E;
+    box-shadow: 0 0 2px #B6DE5E;  
+}
+

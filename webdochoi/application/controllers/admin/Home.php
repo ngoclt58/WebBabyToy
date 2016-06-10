@@ -2,7 +2,11 @@
 
 class Home extends MY_controller
 {
-
+    function __construct()
+    {
+        parent::__construct();
+    }
+    
     function index()
     {
         if ($this->session->userdata('login')) {

@@ -36,6 +36,7 @@
     color: #000000;
     display: block;
     font-size: 12px;
+	position: relative;
 }
 .t-form .req {
     color: #A73939;
@@ -44,7 +45,7 @@
     margin-left: 5px;
 }
 .t-form .error {
-    color: #A73939;
+    color: red;
     font-size: 11px;
 }
 .t-form .error p {
