@@ -88,7 +88,7 @@ table#cart_ccontents td {
 										<img alt="btn_giaodich" src="<?php echo public_url('/site/images/tieptucmuahang.gif')?>">
 										<h6 class="bold content_btn_giaodich">Tiếp tục mua hàng</h6></a>
 									</td>
-									<td colspan="3"><a href="" >
+									<td colspan="3"><a href="<?php echo site_url('order/checkout')?>" >
 										<img alt="btn_giaodich" src="<?php echo public_url('/site/images/shopping.gif')?>">
 										<h6 class="bold content_btn_giaodich">Thanh toán</h6></a>
 									</td>

@@ -149,7 +149,7 @@ class User extends MY_controller
         // lay thong tin cua quan tri vien
         $info = $this->user_model->get_info($id);
         if (! $info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Không tồn tại thanh viên');
             redirect(admin_url('user'));
         }
         // thuc hiện xóa
